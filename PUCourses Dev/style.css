@@ -1,0 +1,47 @@
+body{
+    background-color: #00113C !important;
+    color: white !important;
+    /*imporant para sobrepor o css do bootstrap*/
+}
+.logo{
+    margin-left: 5vh;
+}
+a:hover{
+    text-decoration: underline;
+}
+.nav-link{
+    font-family: Poppins,sans-serif;
+    color: white;
+    text-align: end;
+    justify-content: space-evenly;
+    margin-right: 10.1vh;
+    font-size: x-large;
+    text-decoration: none;
+}
+.box-2{
+    margin-top: 10% !important;
+}
+h1{
+    font-size: 6.96vh;
+    font-weight: 700 !important;
+}
+h2{
+    font-size: 3vh !important;
+}
+
+.nav-link{
+    color: white !important;
+    font-family: Poppins,sans-serif !important;
+    font-size: x-large !important;
+}
+/*trocando a cor do menu sanduiche*/
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    color: white !important;
+}
