@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="../style.css">
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>PUCourses-Dev</title>
+</head>
+
+<body>
+    <header>
+        <!--Logo do menu-->
+        <nav class="navbar navbar-expand-lg ">
+            <a class="navbar-brand logo" href="landingPage.html"><img src="../images/Logo01_PUCoursesDEV.svg"
+                    alt="Logo"></a>
+            <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--fim do logo-->
+            <!--Menu-->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="diferenciais.html">Diferenciais</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nossas Escolas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Entrar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="logon.html">Matricule-se</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--fim do menu-->
+        <!--Script para funcionamento do menu sanduiche-->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <!--imagem da ancora-->
+            <div class="col-6"><span><img src="../images/symbol.svg" alt="ancora" class="desenho"></span></div>
+            <!--Texto do lado da img-->
+            <div class="col-6 box-2">
+                <h1>Programação. Didática. Imersão. Juntas.</h1>
+                <br>
+                <h2>A melhor metodologia para aprender a programar</h2>
+                <br>
+                <br>
+                <button type="button" class="btn btn-dark btn-lg me-5 mt-1">
+                    <a class="buttonsForm" href="login.html">
+                        Matricule-se
+                    </a>
+                </button>
+                <button type="button" class="btn btn-dark btn-lg mt-1">
+                    <a class="buttonsForm" href="login.html">
+                        Entrar
+                    </a>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

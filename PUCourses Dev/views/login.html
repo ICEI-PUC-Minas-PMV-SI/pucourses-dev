@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="../style.css">
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>PUCourses-Dev - Entrar</title>
+</head>
+
+<body>
+    <header>
+        <!--Logo do menu-->
+        <nav class="navbar navbar-expand-lg ">
+            <a class="navbar-brand logo" href="landingPage.html"><img src="../images/Logo01_PUCoursesDEV.svg"
+                    alt="Logo"></a>
+            <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--fim do logo-->
+            <!--Menu-->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="diferenciais.html">Diferenciais</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nossas Escolas</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Entrar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="logon.html">Matricule-se</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--fim do menu-->
+        <!--Script para funcionamento do menu sanduiche-->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    </header>
+
+    <div class="login-root">
+        <div class="box-root flex-flex flex-direction--column" style="min-height: 100vh;flex-grow: 1;">
+            <div class="box-root padding-top--24 flex-flex flex-direction--column" style="flex-grow: 1; z-index: 9;">
+                <div class="formbg-outer">
+                    <div class="formbg">
+                        <div class="form-inner padding-horizontal--48">
+                            <h1 class="padding-bottom--15" style="text-align: center;">Faça seu login e bom mergulho
+                            </h1>
+                            <form id="stripe-login">
+                                <div class="field-login padding-bottom--24">
+                                    <label for="email" class="formLabel">E-mail</label><br>
+                                    <input type="email" name="email">
+                                </div>
+                                <div class="field-login padding-bottom--24">
+                                    <div class="grid--50-50">
+                                        <label for="password" class="formLabel">Senha</label>
+                                    </div>
+                                    <input type="password" name="password">
+                                    <div class="reset-pass">
+                                        <a href="#">Esqueci a senha</a>
+                                    </div>
+                                </div>
+                                <div class="field-login padding-bottom--24">
+                                    <input type="submit" name="submit" value="Entrar">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

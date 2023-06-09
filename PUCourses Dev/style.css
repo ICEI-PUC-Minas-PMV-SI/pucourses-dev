@@ -1,47 +1,235 @@
-body{
-    background-color: #00113C !important;
-    color: white !important;
+body {
+    background-color: white !important;
+    color: black !important;
     /*imporant para sobrepor o css do bootstrap*/
 }
-.logo{
+
+.logo {
     margin-left: 5vh;
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
 }
-.nav-link{
-    font-family: Poppins,sans-serif;
+
+.nav-link {
+    font-family: Poppins, sans-serif;
     color: white;
     text-align: end;
     justify-content: space-evenly;
     margin-right: 10.1vh;
     font-size: x-large;
-    text-decoration: none;
-}
-.box-2{
-    margin-top: 10% !important;
-}
-h1{
-    font-size: 6.96vh;
-    font-weight: 700 !important;
-}
-h2{
-    font-size: 3vh !important;
 }
 
-.nav-link{
-    color: white !important;
-    font-family: Poppins,sans-serif !important;
+.box-2 {
+    margin-top: 10% !important;
+}
+
+h1 {
+    font-size: 6.96vh;
+    font-weight: 700 !important;
+    color: black;
+}
+
+h2 {
+    font-size: 3vh !important;
+    color: black;
+}
+
+.nav-link {
+    color: black !important;
+    font-family: Poppins, sans-serif !important;
     font-size: x-large !important;
 }
+
+.buttonsForm {
+    color: white;
+    text-decoration: none;
+}
+
 /*trocando a cor do menu sanduiche*/
 .custom-toggler .navbar-toggler-icon {
-    background-image: url(
-"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }
 
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-    color: white !important;
+    color: black !important;
+    text-decoration: underline;
+}
+
+.login-root {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.loginbackground {
+    min-height: 692px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.flex-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.center-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.box-root {
+    box-sizing: border-box;
+}
+
+.flex-direction--column {
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.padding-top--64 {
+    padding-top: 64px;
+}
+
+.padding-top--24 {
+    padding-top: 24px;
+}
+
+.padding-top--48 {
+    padding-top: 48px;
+}
+
+.padding-bottom--24 {
+    padding-bottom: 24px;
+}
+
+.padding-horizontal--48 {
+    padding: 48px;
+}
+
+.padding-bottom--15 {
+    padding-bottom: 15px;
+}
+
+.flex-justifyContent--center {
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.formbg {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 448px;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+}
+
+span {
+    display: block;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: bold;
+    color: black;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+.reset-pass a,
+label {
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+}
+
+.reset-pass>a {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.grid--50-50 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.field-login input {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 8px 16px;
+    width: 100%;
+    min-height: 44px;
+    border: unset;
+    border-radius: 4px;
+    outline-color: rgb(84 105 212 / 0.5);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(60, 66, 87, 0.16) 0px 0px 0px 1px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+
+.field-logon input {
+    font-size: 16px;
+    line-height: 28px;
+    width: 70%;
+    margin-left: 5%;
+    min-height: 44px;
+    border: unset;
+    border-radius: 4px;
+    outline-color: rgb(84 105 212 / 0.5);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(60, 66, 87, 0.16) 0px 0px 0px 1px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+
+.field-logon-left input {
+    font-size: 16px;
+    line-height: 28px;
+    width: 32.5%;
+    margin-left: 5%;
+    min-height: 44px;
+    border: unset;
+    border-radius: 4px;
+    outline-color: rgb(84 105 212 / 0.5);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(60, 66, 87, 0.16) 0px 0px 0px 1px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+
+input[type="submit"] {
+    background-color: #343a40;
+    border-color: #343a40;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.formLabel {
+    font-size: 2vh !important;
+    color: #343a40;
 }
