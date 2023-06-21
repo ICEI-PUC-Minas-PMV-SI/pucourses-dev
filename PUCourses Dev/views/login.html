@@ -31,9 +31,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="diferenciais.html">Diferenciais</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Nossas Escolas</a>
-                    </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Entrar</a>
                     </li>
@@ -58,21 +55,21 @@
                         <div class="form-inner padding-horizontal--48">
                             <h1 class="padding-bottom--15" style="text-align: center;">Faça seu login e bom mergulho
                             </h1>
-                            <form id="stripe-login">
+                            <form id="stripe-login" onsubmit="SubmitLogin()">
                                 <div class="field-login padding-bottom--24">
                                     <label for="email" class="formLabel">E-mail</label><br>
-                                    <input type="email" name="email">
+                                    <input type="email" name="email" id="loginEmail">
                                 </div>
                                 <div class="field-login padding-bottom--24">
                                     <div class="grid--50-50">
                                         <label for="password" class="formLabel">Senha</label>
                                     </div>
-                                    <input type="password" name="password">
+                                    <input type="password" name="password" id="loginPassword">
                                     <div class="reset-pass">
                                         <a href="#">Esqueci a senha</a>
                                     </div>
                                 </div>
-                                <button type="button" class="btn btn-dark btn-lg mt-1">
+                                <button type="button" style="margin-left: 5%;" class="btn btn-dark btn-lg mt-1">
                                     <a class="buttonsForm" href="homePage.html">
                                         Entrar
                                     </a>
@@ -85,5 +82,7 @@
         </div>
     </div>
 </body>
+
+<script src="../scripts/scripts.js"></script>
 
 </html>
